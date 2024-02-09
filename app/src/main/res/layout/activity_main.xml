@@ -9,14 +9,41 @@
      android:background="@color/fondo"
      tools:context=".playerName">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Tic Tac Toe"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
+    <EditText
+        android:id="@+id/playerNameEt"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/dark_blue"
+        android:hint="Enter your Name"
+        android:paddingStart="10dp"
+        android:textColor="#FFFFFFFF"
+        android:textColorHint="#80FFFFFF"
+        android:paddingEnd="10dp"/>
 
-
-
-
-
-
-
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_back_blue_100"
+        android:text="Start Game"
+        android:textColor="@color/dark_blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/startGameBtn"/>
 
 
 </LinearLayout>
